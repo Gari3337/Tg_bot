@@ -1,0 +1,13 @@
+# binaries
+*.exe
+
+# database
+data/*.db
+data/*.db-shm
+data/*.db-wal
+
+# env
+.env
+
+# IDE
+.idea/
