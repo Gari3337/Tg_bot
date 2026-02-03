@@ -4,6 +4,6 @@
 
 Токен преподавателя задается из коружения.
 
-## Добавление log/pass в БД В StartBot сразу после db, err := database.Open() добавь временно:
+Добавление log/pass в БД В StartBot сразу после db, err := database.Open() добавь временно:
 hash, _ := HashPassword("12345") // пароль
 _ = database.UpsertTeacher(db, "admin", hash) // логин
